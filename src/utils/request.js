@@ -3,7 +3,7 @@ import { ElMessage } from 'element-plus';
 
 // 创建实例时配置默认值
 const http = axios.create({
-  baseURL: 'https:/v3pz.itndedu.com/v3pz',
+  baseURL:"https://v3pz.itndedu.com/v3pz",
   timeout: 5000,
 });
 // 添加请求拦截器
