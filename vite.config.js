@@ -8,6 +8,8 @@ import vue from '@vitejs/plugin-vue';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+
+  base: "/vite_hou/",
   plugins: [
     vue(),
     AutoImport({
@@ -16,7 +18,7 @@ export default defineConfig({
     Components({
       resolvers: [ElementPlusResolver()],
     }),
-  
+
   ],
   resolve: {
     // ↓路径别名
